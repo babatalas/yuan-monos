@@ -1,0 +1,33 @@
+@media only screen and (max-width : 960px) {
+    .highlight-card {
+        flex-basis: 48%;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .notification {
+        &__cookie {
+            flex-direction: column;
+            align-items: flex-start;
+            height: min-content;
+
+            button {
+                margin: 2rem 0 0;
+            }
+        }
+    }
+
+    .highlight-card {
+        flex-basis: 100%;
+    }
+
+    .newsletter__form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            margin: 0 0 1rem 0;
+            padding: .8rem;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+
+@import "base/base";
+@import "base/typography";
+@import "base/animations";
+
+@import 'layout/container';
+@import 'layout/header';
+@import "layout/footer";
+@import "layout/grid";
+
+@import "components/buttons";
+@import "components/card";
+@import "components/newsletter";
+@import "components/notification";
+
+@import "pages/home";
+
+@import "utilities/font";
+@import "utilities/interface";
+@import "utilities/media-query";

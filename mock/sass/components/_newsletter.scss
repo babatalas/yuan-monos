@@ -1,0 +1,35 @@
+.newsletter {
+    position: relative;
+    display: none;
+
+    &__container {
+        position: fixed;
+        max-width: 64rem;
+        left: 0;
+        background-color: rgba($color-primary-light, .9);
+        padding: 3rem;
+        opacity: 0;
+    }
+
+    &__header {
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        margin-bottom: 2rem;
+    }
+
+    &__form {
+        display: flex;
+
+        input {
+            flex: 1;
+            padding: 0 1rem;
+            margin-right: 1rem;
+        }
+
+        button {
+            padding: .8rem 1.5rem;
+        }
+    }
+}

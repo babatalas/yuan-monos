@@ -1,0 +1,13 @@
+.highlight-card {
+    border: 1px solid $color-icon;
+    box-shadow: inset 2px 2px 0 0 rgba($color-white, .80), 2px 2px 0 0 rgba($color-white, .80);
+    flex-basis: 32%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+}
